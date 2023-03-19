@@ -1,0 +1,94 @@
+.logo {
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 25px;
+}
+
+.border_usa {
+  background: linear-gradient(
+    180deg,
+    #ff7925 -2.12%,
+    #fd6645 60.9%,
+    #fc5d3b 97.88%
+  );
+  height: 350px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.dp {
+  border-radius: 50%;
+  height: 1%;
+  width: 140px;
+  align-items: center;
+  margin: auto;
+}
+
+.bio {
+  font-size: 10px;
+}
+
+.logo_snap {
+  width: 50px;
+  height: 100%;
+}
+
+.logo_insta {
+  width: 40px;
+  height: 100%;
+}
+
+.logo_ph {
+  width: 80px;
+  height: 100%;
+}
+
+.parent {
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_den {
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.stat_bars {
+  display: flex;
+  padding: 3px;
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 11px;
+  align-items: center;
+}
+
+.stats {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.digits {
+  font-size: 12px;
+}
+
+.Underside {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+  z-index: -1;
+}
+
+.gallery_display {
+  position: relative;
+  justify-content: center;
+}
