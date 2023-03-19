@@ -47,10 +47,16 @@ function Home_Page() {
             <h2>Mia Khalifa</h2>
           </div>
           <p className="bio"> "Finger Lickiing Good"</p>
-          <div className="parent">
-            <img className="logo_snap" src={snapchat_logo}></img>
-            <img className="logo_ph" src={pornhub_logo}></img>
-            <img className="logo_insta" src={insta_logo}></img>
+          <div className="parent_socials">
+            <a href="https://www.snapchat.com/add/thedcsportsgirl">
+              <img className="logo_snap" src={snapchat_logo}></img>
+            </a>
+            <a href="https://www.pornhub.com/channels/mia-khalifa">
+              <img className="logo_ph" src={pornhub_logo}></img>
+            </a>
+            <a href="https://www.instagram.com/miakhalifa/?hl=en">
+              <img className="logo_insta" src={insta_logo}></img>
+            </a>
           </div>
           <div className="stats">
             <div className="stat_bars">
@@ -81,7 +87,7 @@ function Home_Page() {
                   key={index}
                   src={imageUrl}
                   style={{
-                    margin: "10px",
+                    margin: "13px",
                     maxWidth: "100%",
                     maxHeight: "100%",
                     objectFit: "contain",

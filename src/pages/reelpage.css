@@ -30,12 +30,12 @@
 }
 
 .logo_snap {
-  width: 50px;
+  width: 45px;
   height: 100%;
 }
 
 .logo_insta {
-  width: 40px;
+  width: 35px;
   height: 100%;
 }
 
@@ -50,6 +50,15 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+}
+
+.parent_socials {
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .profile_den {
@@ -70,9 +79,13 @@
 }
 
 .stats {
-  width: 50%;
+  top: 10px;
   display: flex;
   justify-content: space-around;
+  position: relative;
+  top: 13px;
+  gap: 70px;
+  max-width: 100%;
 }
 
 .digits {
